@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SUNABA COFFEE。豆とコーヒーへのこだわりを、一杯に込めて。">
+  <title>SUNABA COFFEE | 喫茶店</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js?v=click-fix" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SUNABA COFFEE ホーム">
+      <span class="brand-mark">S</span>
+      <span>SUNABA COFFEE</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="メインナビゲーション">
+      <a href="#story">SUNABACOFFEEについて</a>
+      <a href="#menu">メニュー</a>
+      <a href="#visit">店舗情報</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-slides" aria-hidden="true">
+        <div class="hero-slide hero-slide-one"></div>
+        <div class="hero-slide hero-slide-two"></div>
+        <div class="hero-slide hero-slide-three"></div>
+        <div class="hero-slide hero-slide-four"></div>
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <h1 id="hero-title">SUNABA<br>COFFEE</h1>
+        <p class="hero-copy">忙しい毎日に、ひと息つける場所を。<br>香り高いコーヒーとともに、<br>自分を大切にする時間を過ごしてください。</p>
+        <a class="outline-button" href="#menu">メニューを見る <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="scroll-cue" href="#story"><span></span>SCROLL</a>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-label reveal-on-scroll">SUNABACOFFEEについて</div>
+      <div class="story-layout">
+        <div class="story-image" role="img" aria-label="年配の男性がコーヒーを淹れている様子"></div>
+        <div>
+          <h2>「何もしない時間」も、<em>大切だから。</em></h2>
+        </div>
+        <div class="story-text">
+          <p>頑張る毎日の途中で、ふっと肩の力を抜ける場所をつくりたい。</p>
+          <p>コーヒーの香りと、ゆっくり流れる時間。ここで過ごすひとときが、あなた自身への小さなご褒美になりますように。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-label reveal-on-scroll">メニュー</div>
+      <div class="menu-cards">
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=85" alt="モーニングのコーヒーとパン">
+          <div class="menu-card-body"><h3>モーニング</h3><p class="menu-card-description">毎朝焼き上げたパンにジャムを添えて、コーヒーと一緒にどうぞ。開店から11時まで、¥500でお楽しみいただけます。</p><div class="menu-card-list"><p>パン・ジャム・コーヒー <strong>¥500</strong></p></div></div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=700&q=85" alt="コーヒー">
+          <div class="menu-card-body"><h3>コーヒー・ドリンク</h3><p class="menu-card-description">丁寧に淹れたブレンドコーヒーをはじめ、ふんわりミルクのカフェオレ、生クリームを浮かべたウィンナーコーヒーをご用意しています。</p><div class="menu-card-list"><p>コーヒー <strong>¥500</strong></p><p>カフェオレ <strong>¥600</strong></p><p>ウィンナーコーヒー <strong>¥500</strong></p></div></div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=700&q=85" alt="サンドイッチ">
+          <div class="menu-card-body"><h3>フード・デザート</h3><p class="menu-card-description">具だくさんのサンドイッチ、熱々グラタン、日替わりデザート、そして昔ながらのパンケーキ。毎日手作りでお届けします。</p><div class="menu-card-list"><p>サンドイッチ <strong>¥500</strong></p><p>グラタン <strong>¥650</strong></p><p>チーズケーキ <strong>¥400</strong></p><p>昔ながらのパンケーキ</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="visit-image" role="img" aria-label="SUNABA COFFEEの店内"></div>
+      <div class="visit-content">
+        <div class="section-label reveal-on-scroll">店舗情報</div>
+        <dl class="shop-details">
+          <div><dt>ADDRESS</dt><dd>愛媛県今治市常盤町4丁目8-18</dd></div>
+          <div><dt>OPEN</dt><dd>10:00 - 17:00<br><small>水曜日・第1、第3月曜日定休</small></dd></div>
+          <div><dt>PARKING</dt><dd>なし</dd></div>
+          <div><dt>SEATS</dt><dd>テラス 2席 / 4人掛けテーブル 2卓 / カウンター 5席</dd></div>
+        </dl>
+        <div class="business-calendar">
+          <div class="calendar-heading"><span>営業カレンダー</span><strong id="calendar-month">2026.08</strong></div>
+          <div class="calendar-grid calendar-weekdays" aria-hidden="true"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
+          <div class="calendar-grid" id="business-calendar" aria-label="営業カレンダー">
+            <span class="calendar-day is-blank" aria-hidden="true"></span><span class="calendar-day is-blank" aria-hidden="true"></span><span class="calendar-day is-blank" aria-hidden="true"></span><span class="calendar-day is-blank" aria-hidden="true"></span><span class="calendar-day is-blank" aria-hidden="true"></span><span class="calendar-day is-blank" aria-hidden="true"></span>
+            <span class="calendar-day is-open">1</span><span class="calendar-day is-open">2</span><span class="calendar-day is-closed">3</span><span class="calendar-day is-open">4</span><span class="calendar-day is-closed">5</span><span class="calendar-day is-open">6</span><span class="calendar-day is-open">7</span><span class="calendar-day is-open">8</span><span class="calendar-day is-open">9</span><span class="calendar-day is-open">10</span><span class="calendar-day is-open">11</span><span class="calendar-day is-closed">12</span><span class="calendar-day is-open">13</span><span class="calendar-day is-open">14</span><span class="calendar-day is-open">15</span><span class="calendar-day is-open">16</span><span class="calendar-day is-closed">17</span><span class="calendar-day is-open">18</span><span class="calendar-day is-closed">19</span><span class="calendar-day is-open">20</span><span class="calendar-day is-open">21</span><span class="calendar-day is-open">22</span><span class="calendar-day is-open">23</span><span class="calendar-day is-open">24</span><span class="calendar-day is-open">25</span><span class="calendar-day is-closed">26</span><span class="calendar-day is-open">27</span><span class="calendar-day is-open">28</span><span class="calendar-day is-open">29</span><span class="calendar-day is-open">30</span><span class="calendar-day is-open">31</span>
+          </div>
+          <p class="calendar-legend"><span class="legend-open"></span>営業日 <span class="legend-closed"></span>定休日</p>
+        </div>
+        <a class="outline-button dark-button" href="mailto:hello@sunaba.coffee">お問い合わせ <span aria-hidden="true">↗</span></a>
+        <div class="social-links" aria-label="ソーシャルメディア">
+          <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          </a>
+          <a class="social-link" href="https://x.com/" target="_blank" rel="noreferrer" aria-label="X" title="X">
+            <svg class="social-icon" aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M5 4l14 16M19 4L5 20"></path></svg>
+          </a>
+        </div>
+        <div class="access-block">
+          <p class="section-kicker">アクセス</p>
+          <iframe class="map" title="愛媛県今治市常盤町4丁目8-18のGoogleマップ" src="https://www.google.com/maps?q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E5%B8%B8%E7%9B%A4%E7%94%BA4%E4%B8%81%E7%9B%AE8-18&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>SUNABA COFFEE</span><span>© 2026 SUNABA COFFEE</span></footer>
+</body>
+</html>
