@@ -124,7 +124,7 @@ h2 em { color: #91724e; font-style: normal; }
 .dark-button { border-radius: 6px; color: var(--ink); display: flex; margin: 38px auto 0; width: max-content; }
 .social-links { display: flex; gap: 16px; justify-content: center; margin-top: 28px; }
 .social-link { align-items: center; border: 1px solid #c9bba6; border-radius: 6px; display: inline-flex; height: 40px; justify-content: center; transition: background .25s, color .25s; width: 40px; }
-.social-link:hover { background: #68865e; color: var(--paper); }
+.social-link:hover { background: #7b654f; color: var(--paper); }
 .social-icon { fill: none; height: 19px; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; width: 19px; }
 .social-icon.x-icon { fill: currentColor; stroke: none; }
 .access-block { margin-top: 58px; }
