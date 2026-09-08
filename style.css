@@ -47,7 +47,7 @@ h1 { font-size: clamp(78px, 11vw, 156px); line-height: .82; margin: 0; }
 .section-kicker { color: var(--gold); font-size: 12px; letter-spacing: .2em; margin: 0 0 24px; }
 h2 { font-size: clamp(45px, 6vw, 86px); line-height: 1.05; margin: 0; }
 .story-layout h2 { color: #756e65; font-family: "Noto Sans JP", sans-serif; font-size: clamp(27px, 3.2vw, 46px); font-weight: 500; }
-.story-layout h2 span { white-space: nowrap; }
+.story-layout h2 span, .story-layout h2 em { display: block; white-space: nowrap; }
 h2 em { color: #91724e; font-style: normal; }
 .story-layout > div:nth-child(2) { align-self: end; grid-column: 2; grid-row: 1; }
 .story-text { align-self: start; color: var(--muted); font-size: 14px; grid-column: 2; grid-row: 2; line-height: 2.2; max-width: 520px; }
