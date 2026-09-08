@@ -6,6 +6,7 @@ a { color: inherit; text-decoration: none; }
 .site-header { align-items: center; background: #fff; color: var(--ink); display: flex; gap: 26px; height: auto; justify-content: space-between; padding: 15px clamp(18px, 4vw, 48px); position: fixed; top: 0; width: 100%; z-index: 5; }
 .brand { align-items: center; display: flex; font-size: 13px; font-weight: 500; gap: 8px; letter-spacing: .16em; }
 .brand-mark { align-items: center; border: 1px solid currentColor; border-radius: 50%; display: inline-flex; font-family: "Cormorant Garamond", serif; font-size: 20px; height: 30px; justify-content: center; letter-spacing: 0; width: 30px; }
+.brand-mark svg { fill: none; height: 18px; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.3; width: 18px; }
 .site-nav { align-items: center; display: flex; gap: clamp(16px, 2.2vw, 30px); opacity: 1; pointer-events: auto; }
 .site-nav a { font-size: 13px; letter-spacing: .1em; transition: color .25s ease; }
 .site-nav a:hover, .site-nav a:focus-visible { color: var(--gold); }
