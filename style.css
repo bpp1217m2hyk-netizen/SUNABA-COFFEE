@@ -113,9 +113,7 @@ h2 em { color: #91724e; font-style: normal; }
 .calendar-weekdays { color: #927b5d; font-size: 9px; }
 .calendar-day { align-items: center; aspect-ratio: 1; border-radius: 50%; display: flex; font-size: 14px; justify-content: center; margin: 1px; position: relative; }
 .calendar-day.is-open { background: rgba(104,134,94,.16); color: #496541; }
-.calendar-day.is-closed, .calendar-day.is-closed.is-today { background: rgba(174,91,76,.18); color: #914d42; font-weight: 600; }
-.calendar-day.is-today { background: var(--gold); color: #fffaf0; }
-.calendar-day.is-closed.is-today { background: #68865e; color: #fffaf0; }
+.calendar-day.is-closed { background: rgba(174,91,76,.18); color: #914d42; }
 .calendar-day.is-blank { visibility: hidden; }
 .calendar-legend { color: var(--muted); font-size: 10px; margin: 12px 0 0; text-align: center; }
 .legend-open, .legend-closed { border-radius: 50%; display: inline-block; height: 8px; margin: 0 4px 1px 12px; width: 8px; }
