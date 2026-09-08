@@ -5,11 +5,11 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Not
 .coffee-beans { inset: 0; overflow: hidden; pointer-events: none; position: fixed; z-index: 0; }
 .coffee-bean { background: #765039; border-radius: 65% 35% 60% 40%; height: 16px; opacity: .22; position: absolute; width: 11px; animation: bean-roll 24s linear infinite; }
 .coffee-bean::after { border-left: 1px solid rgba(243,238,229,.75); border-radius: 50%; content: ""; inset: 2px 4px; position: absolute; transform: rotate(25deg); }
-.coffee-bean-one { animation-delay: -2s; animation-duration: 17s; left: 8%; top: 18%; }
-.coffee-bean-two { animation-delay: -8s; animation-direction: reverse; animation-duration: 13s; left: 68%; top: 35%; }
-.coffee-bean-three { animation-delay: -12s; animation-duration: 20s; left: 32%; top: 58%; }
-.coffee-bean-four { animation-delay: -5s; animation-direction: reverse; animation-duration: 15s; left: 84%; top: 74%; }
-.coffee-bean-five { animation-delay: -9s; animation-duration: 11s; left: 15%; top: 86%; }
+.coffee-bean-one { animation-delay: -2s; animation-duration: 10s; left: 8%; top: 18%; }
+.coffee-bean-two { animation-delay: -6s; animation-direction: reverse; animation-duration: 8s; left: 68%; top: 35%; }
+.coffee-bean-three { animation-delay: -8s; animation-duration: 13s; left: 32%; top: 58%; }
+.coffee-bean-four { animation-delay: -4s; animation-direction: reverse; animation-duration: 9s; left: 84%; top: 74%; }
+.coffee-bean-five { animation-delay: -5s; animation-duration: 7s; left: 15%; top: 86%; }
 @keyframes bean-roll {
 	0% { opacity: 0; transform: translate(-8vw, -5vh) rotate(0deg); }
 	10% { opacity: .22; transform: translate(-4vw, -1vh) rotate(220deg); }
