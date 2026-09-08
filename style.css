@@ -10,6 +10,7 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Not
 .coffee-bean-three { animation-delay: -8s; animation-duration: 13s; left: 32%; top: 58%; }
 .coffee-bean-four { animation-delay: -4s; animation-direction: reverse; animation-duration: 9s; left: 84%; top: 74%; }
 .coffee-bean-five { animation-delay: -5s; animation-duration: 7s; left: 15%; top: 86%; }
+.coffee-bean-four, .coffee-bean-five { display: none; }
 @keyframes bean-roll {
 	0% { opacity: 0; transform: translate(-8vw, -5vh) rotate(0deg); }
 	10% { opacity: .22; transform: translate(-4vw, -1vh) rotate(220deg); }
