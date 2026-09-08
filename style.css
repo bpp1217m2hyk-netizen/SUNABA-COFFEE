@@ -2,6 +2,16 @@
 :root { --ink: #24201d; --paper: #f3eee5; --gold: #c9a56a; --muted: #756e65; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Noto Sans JP", sans-serif; font-weight: 300; }
+.coffee-beans { inset: 0; overflow: hidden; pointer-events: none; position: fixed; z-index: 0; }
+.coffee-bean { background: #765039; border-radius: 65% 35% 60% 40%; height: 16px; opacity: .22; position: absolute; width: 11px; animation: bean-roll 24s linear infinite; }
+.coffee-bean::after { border-left: 1px solid rgba(243,238,229,.75); border-radius: 50%; content: ""; inset: 2px 4px; position: absolute; transform: rotate(25deg); }
+.coffee-bean-one { left: 8%; top: 18%; }
+.coffee-bean-two { animation-delay: -7s; left: 68%; top: 35%; transform: scale(.8); }
+.coffee-bean-three { animation-delay: -13s; left: 32%; top: 58%; transform: scale(1.15); }
+.coffee-bean-four { animation-delay: -18s; left: 84%; top: 74%; transform: scale(.7); }
+.coffee-bean-five { animation-delay: -22s; left: 15%; top: 86%; transform: scale(.9); }
+@keyframes bean-roll { 0% { opacity: 0; transform: translate(-8vw, -5vh) rotate(0deg); } 10%, 90% { opacity: .22; } 100% { opacity: 0; transform: translate(18vw, 10vh) rotate(720deg); } }
+main, .site-footer { position: relative; z-index: 1; }
 a { color: inherit; text-decoration: none; }
 .site-header { align-items: center; background: #fff; color: var(--ink); display: flex; gap: 26px; height: auto; justify-content: space-between; padding: 15px clamp(18px, 4vw, 48px); position: fixed; top: 0; width: 100%; z-index: 5; }
 .brand { align-items: center; display: flex; font-size: 13px; font-weight: 500; gap: 8px; letter-spacing: .16em; }
@@ -113,11 +123,13 @@ h2 em { color: #91724e; font-style: normal; }
 .dark-button { border-radius: 6px; color: var(--ink); display: flex; margin: 38px auto 0; width: max-content; }
 .social-links { display: flex; gap: 16px; justify-content: center; margin-top: 28px; }
 .social-link { align-items: center; border: 1px solid #c9bba6; border-radius: 6px; display: inline-flex; height: 40px; justify-content: center; transition: background .25s, color .25s; width: 40px; }
-.social-link:hover { background: var(--ink); color: var(--paper); }
+.social-link:hover { background: #68865e; color: var(--paper); }
 .social-icon { fill: none; height: 19px; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; width: 19px; }
+.social-icon.x-icon { fill: currentColor; stroke: none; }
 .access-block { margin-top: 58px; }
 .access-block .section-kicker { margin-bottom: 18px; }
 .map { border: 0; display: block; filter: sepia(.18) saturate(.7); height: 250px; width: 100%; }
+@media (prefers-reduced-motion: reduce) { .coffee-beans { display: none; } }
 .site-footer { border-top: 1px solid #d7ccb9; display: flex; font-family: "Noto Sans JP", sans-serif; font-size: 14px; justify-content: space-between; letter-spacing: .16em; padding: 28px clamp(32px, 6vw, 88px); }
 .sr-only { height: 1px; margin: -1px; overflow: hidden; position: absolute; width: 1px; clip: rect(0,0,0,0); }
 @media (min-width: 701px) {
