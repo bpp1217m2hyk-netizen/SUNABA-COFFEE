@@ -151,3 +151,10 @@ h2 em { color: #91724e; font-style: normal; }
 	.menu-item img { height: 68px; width: 68px; }
 	.menu-item strong { bottom: auto; position: static; right: auto; }
 }
+@media (max-width: 700px) {
+	.story-layout { display: flex; flex-direction: column; gap: 36px; width: 100%; }
+	.story-layout .story-image { order: 1; width: 100%; }
+	.story-layout > div:nth-child(2) { order: 2; }
+	.story-layout .story-text { order: 3; width: 100%; }
+	.story-layout h2 span, .story-layout h2 em { white-space: normal; }
+}
