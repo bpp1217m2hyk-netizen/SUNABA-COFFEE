@@ -3,7 +3,7 @@
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Noto Sans JP", sans-serif; font-weight: 300; }
 a { color: inherit; text-decoration: none; }
-.site-header { align-items: center; background: #fff; color: var(--ink); display: flex; gap: 26px; height: auto; justify-content: flex-end; padding: 15px clamp(18px, 4vw, 48px); position: absolute; top: 0; width: 100%; z-index: 5; }
+.site-header { align-items: center; background: #fff; color: var(--ink); display: flex; gap: 26px; height: auto; justify-content: flex-end; padding: 15px clamp(18px, 4vw, 48px); position: fixed; top: 0; width: 100%; z-index: 5; }
 .brand { align-items: center; display: flex; font-size: 10px; font-weight: 500; gap: 8px; letter-spacing: .16em; }
 .brand-mark { align-items: center; border: 1px solid currentColor; border-radius: 50%; display: inline-flex; font-family: "Cormorant Garamond", serif; font-size: 17px; height: 26px; justify-content: center; letter-spacing: 0; width: 26px; }
 .site-nav { align-items: center; display: flex; gap: clamp(16px, 2.2vw, 30px); opacity: 1; pointer-events: auto; }
