@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-:root { --ink: #24201d; --paper: #f3eee5; --gold: #c9a56a; --muted: #756e65; }
+:root { --ink: #24201d;  --paper: #F5F1E8;  --gold: #c9a56a; --muted: #756e65; }
 html { scroll-behavior: smooth; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Noto Sans JP", sans-serif; font-weight: 300; }
 .coffee-beans { inset: 0; overflow: hidden; pointer-events: none; position: fixed; z-index: 0; }
@@ -80,7 +80,7 @@ h2 em { color: #91724e; font-style: normal; }
 .menu-section .section-label { color: #a89478; }
 .menu-heading { display: flex; justify-content: space-between; margin: 72px auto 65px; max-width: 1100px; }
 .menu-heading h2 { font-size: clamp(40px, 5vw, 70px); }
-.menu-section { background: #f3eee5; color: var(--ink); }
+.menu-section { background: #F5F1E8; color: var(--ink); }
 .menu-section .section-label { color: var(--muted); }
 .menu-cards { display: grid; gap: clamp(24px, 4vw, 56px); grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0 auto; max-width: 1200px; }
 .menu-card { background: #f8f2e7; border: 1px solid #d8ccba; min-width: 0; overflow: hidden; }
